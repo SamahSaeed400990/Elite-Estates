@@ -1,0 +1,77 @@
+@import "tailwindcss";
+/* 
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+.bg{
+  background-image: url('https://s3-alpha-sig.figma.com/img/a1a2/fc5c/8cbf8810e1054178ccaf3cd1017d477d?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=mc-aEk~dQhGUyjJ2RYQZVhc6DKrOqPLwJeZDvsYNScholNXiXyDkph7-8TGnXs16atPHe8caQ1Bsi-eFX7aXTt9lUY0kuIczPpkcylrRGdL2GiCcpAqpWE4KoN~cAvj2UWTMnObJ-flGmY2mn6Cex93xOiDU2kzDiuFAoVyEKkPkvWY5A2-AmJBZ0qmf3pFNlzLEVr0YkpaymXtg3EIsGEZ4V49Ty32SogcbS332Gl2YN3NN-O75Ko3zRhA0D7XwLT4VN8tZVQt3yKYmxY3MVRRsJek4FlCbAHkp4dIhUxefGTKjWoQrMIN98F2zcrb7R6~lxaTfdQVG1rIpElnulQ__');
+  background-position: center;
+  background-size: cover;
+
+}
