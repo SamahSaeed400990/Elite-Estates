@@ -1,13 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import likeIcon from '../../assets/imgs/Like.png'
 
 export default function Blog() {
   return (
    <>
-   <div className='w-[1336px] mx-auto py-12 my-20  '>
-   <h2 className='text-[#3E3E3E] mb-6 uppercase'>Our blog</h2>
+   <div className='w-[1336px] mx-auto py-12 my-20  relative'>
+   <h2 className='text-[#3E3E3E] mb-6 uppercase absolute left-10 top-0'>Our blog  <span className='h-[2px] w-[40px] bg-[#3E3E3E] absolute top-3 -left-11'></span></h2>
    <div className='flex justify-between mb-4'>
     <p className='text-2xl'>Latest Trends</p>
-    <p className='text-[#606060]'>See All <span><i class="fa-solid fa-arrow-right"></i></span> </p>
+    <Link className='text-[#606060]'>See All <span><i class="fa-solid fa-arrow-right"></i></span> </Link>
     </div>
 
     <div className='grid grid-cols-12 gap-8'>
@@ -19,7 +21,7 @@ export default function Blog() {
             <p className='mb-4'>Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent </p>
             <div className='flex justify-between'>
                 <button className='text-white bg-[#0055CD] font-semibold rounded-xs border-1 border-[#0055CD] px-5 py-2'>Read More</button>
-                <i class="fa-regular fa-thumbs-up text-[#0055CD] cursor-pointer"></i>
+               <img src={likeIcon} alt="" />
             </div>
            </div>
         </div>
@@ -31,7 +33,7 @@ export default function Blog() {
             <p className='mb-4'>Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent </p>
             <div className='flex justify-between'>
                 <button className='text-white bg-[#0055CD] font-semibold rounded-xs border-1 border-[#0055CD] px-5 py-2'>Read More</button>
-                <i class="fa-regular fa-thumbs-up text-[#0055CD] cursor-pointer"></i>
+               <img src={likeIcon} alt="" />
             </div>
            </div>
         </div>
@@ -43,7 +45,7 @@ export default function Blog() {
             <p className='mb-4'>Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent </p>
             <div className='flex justify-between items-center'>
                 <button className='text-white bg-[#0055CD] font-semibold rounded-xs border-1 border-[#0055CD] px-5 py-2'>Read More</button>
-                <i class="fa-regular fa-thumbs-up text-[#0055CD] cursor-pointer"></i>
+               <img src={likeIcon} alt="" />
             </div>
            </div>
         </div>

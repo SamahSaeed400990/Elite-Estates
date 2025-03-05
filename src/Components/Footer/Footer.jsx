@@ -1,4 +1,10 @@
 import React from 'react'
+import { Link} from 'react-router-dom';
+import facebookIcon from '../../assets/imgs/Icon (1).png'
+import linkedinIcon from '../../assets/imgs/icon (2).png'
+import instagramIcon from '../../assets/imgs/icon (3).png'
+import twitterIcon from '../../assets/imgs/icon (4).png'
+import { NavLink } from 'react-bootstrap';
 
 export default function Footer() {
   return (
@@ -27,15 +33,17 @@ experiences with our clients.
                <p>022344444</p>
             </div>
         </div>
+
         <div className="col-span-4">
             <h2 className='font-semibold text-xl mb-6'>Quick Links</h2>
             <ul>
-                <li className='mb-2' >About Us</li>
-                <li className='mb-2'>Terms & Conditions</li>
-                <li className='mb-2'>Support Center</li>
-                <li className='mb-2'>Privacy Policy</li>
+                <li className='mb-1' > <Link to='/aboutus'>About Us</Link> </li>
+                <li className='mb-1'> <Link to='/aboutus'>Terms & Conditions</Link> </li>
+                <li className='mb-1'> <Link to='/aboutus'>Support Center</Link>  </li>
+                <li className='mb-1'> <Link to='/aboutus'>Privacy Policy</Link>  </li>
             </ul>
         </div>
+
         <div className="col-span-4">
             <h2 className='mb-10 font-semibold text-xl'>Newsletter</h2>
             <div className='relative'>
@@ -47,11 +55,11 @@ experiences with our clients.
         
     </div>
 
-    <div className='flex  gap-10 mt-6  py-10 justify-center items-center'>
-    <i className="fa-brands fa-facebook-f"></i>
-    <i className="fa-brands fa-linkedin-in"></i>
-    <i className="fa-brands fa-instagram"></i>
-    <i className="fa-brands fa-twitter"></i>
+    <div className='flex  gap-8 mt-6  py-10 justify-center items-center'>
+      <NavLink to =''>   <img src={facebookIcon} alt="" /></NavLink>
+      <NavLink to =''>   <img src={linkedinIcon} alt="" /></NavLink>
+       <NavLink to =''><img src={instagramIcon} alt="" /></NavLink>
+       <NavLink to =''><img src={twitterIcon} alt="" /></NavLink>
     </div>
     </div>
     </div>

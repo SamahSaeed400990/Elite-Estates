@@ -7,6 +7,7 @@ import Popular from './Components/Popular/Popular'
 import Services from './Components/Services/Services'
 import Home from './Pages/Home/Home'
 import Layout from './Components/Layout'
+import ProductDetails from './Components/ProductDetails/ProductDetails'
 
 
 
@@ -15,17 +16,21 @@ function App() {
   const routes= createBrowserRouter([
     {
       path:"/" , element: <Layout /> ,children:[
-        {path:'/',index:true,element:<Home />},
+        {index:true,element:<Home />},
+        {path:'productdetails' ,element:<ProductDetails />}
     
       ]
     }
   ])
   return (
     <>
-    <Navbar /> 
-      <Home  />
+    {/* <Navbar />  */}
+    <RouterProvider router={routes} ></RouterProvider>
+    
+
+      {/* <Home  />
    
-     <Footer /> 
+     <Footer />  */}
    
     </>
   )

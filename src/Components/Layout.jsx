@@ -6,8 +6,8 @@ import { Outlet } from 'react-router-dom'
 export default function Layout() {
   return (
     <>
-    <Navbar />
-    <Outlet />
+    {/* <Navbar /> */}
+   <div className='mt-16 '> <Outlet /></div>
     <Footer />
     </>
   )

@@ -1,16 +1,19 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 export default function Popular() {
   return (
    <>
-<div className=' w-[1336px] mx-auto py-12 my-20'>
-   <h2 className='font-semibold mb-4 text-xl relative text-[#3E3E3E]'> <span className='h-[2px] w-[30px] bg-[#3E3E3E] absolute top-3.5 -left-10'></span> Popular</h2>
+<div className=' w-[1336px] mx-auto py-18 my-20 relative pt-16 mt-[80px]'>
+   <h2 className='font-semibold mb-4 text-xl relative left-10 top-5 mt-6 text-[#3E3E3E]'> 
+    <span className='h-[2px] w-[30px] bg-[#3E3E3E] absolute top-3.5 -left-10'></span> Popular</h2>
   <div className='flex justify-between mb-4'>
     <p className='text-2xl'> Our Popular Homes</p>
-    <p className='text-[#606060]'>explore all <span><i class="fa-solid fa-arrow-right"></i></span> </p>
+    <Link className='text-[#606060]'>Explore all <span><i class="fa-solid fa-arrow-right"></i></span> </Link>
   </div>
+
   <div className= 'grid grid-cols-12 gap-4 '>
-    <div className='col-span-4'>
+    <Link to='' className='col-span-4'>
       <img className='h-[302px] w-full' src="https://s3-alpha-sig.figma.com/img/92c9/482e/c978c89a04b96f17195587570522e793?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=SMySW0tgMLBHF7QcGvhbXS6DJkEalNQN5tRx2Q32XsTewCjUMVjr7B8mpanZ4TDdsmGwgoDQPgiyO68emP9oaoGmYdEdv8lPkI7yg2RsHkAjekmDBSxFu86WFiOyREWcl02sb7OtqWCBJgQK1kxmcb4dXYDlZsf1cgCXF~8WLjoIhUpPJUrjVrvx5vxbItMUP3Xmnpk050UD0b6mF8Zj2APDVxovRH0rGSCca~uOY~ebwKsQpyAL271J6UozAzU74IN3-ILOvhFhhBYNFyC608P9VOejk~mlWsafoG0SmDSAg4R-5BMqeIYR3MGt2ad~s-83q0PBqhEYBFC1vO43rQ__" alt="" />
       <div className='flex gap-2 items-center'>
          <i className="fa-solid fa-location-dot"></i>
@@ -35,9 +38,9 @@ export default function Popular() {
         <button className='bg-[#1E1E1E] text-white w-fit px-4 py-1 rounded-xs mb-8 cursor-pointer '>Book Now</button>
         <p className='text-[#000000]'>1000000$</p>
       </div>
-    </div>
+    </Link>
 
-    <div className='col-span-4'>
+    <Link to='' className='col-span-4'>
       <img className='h-[302px] w-full' src="https://s3-alpha-sig.figma.com/img/5908/c7cd/d47d0732a187f434f201229cd0b300a1?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=h9aPYJHrl5Gzr0U8GWDzY32dPH747DTLdcI~mTpeI9ca7lmyGFSX0hPVlMpS4baV3~UfGzbqk8rLOs8R0mp-8OuyqAhCCCNBu5LiWqlZBZS~ykChdiwq4es4habJfFldYNH4NGuBRlLrOf5fc~B2Y5ftmxMKvy7x8bEbOTC7wzgQNnNZT4LwYGjWbBbVnbg6XYIdbFxuMEi347lSxPHFe1N9p28s5rnSfCcvs57NdeNibkCJKla9WtSFytHmLAPByFfh908mydcOxpafA5qUKSB4VR8S1aShPqwJ95M78hio3x-KrjWamsGpP0cQkdKY7L-etvAsC9VJ6bFPhNRAJw__" alt="" />
       <div className='flex gap-2 items-center' >
       <i className="fa-solid fa-location-dot"></i>
@@ -62,9 +65,9 @@ export default function Popular() {
         <button className='bg-[#1E1E1E] text-white w-fit px-4 py-1 rounded-xs mb-8 cursor-pointer '>Book Now</button>
         <p className='text-[#000000]'>1000000$</p>
       </div>
-    </div>
+    </Link>
 
-    <div className='col-span-4'>
+    <Link to='' className='col-span-4'>
       <img className='h-[302px]' src="https://s3-alpha-sig.figma.com/img/387a/d33d/400862baf9076eb882091c73f1dd5c1e?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=qVecz1Iy8~S-x4KtUgv~sjChgQ4O8lT4oM94uJkgkccG86JYsBxlGwHFm-k294LmcimHSC12v-X~nQiw90z3iy9qeCyhMdIDECRjgatT0e~hIgtqng7ofPZ5vXFqJ3xC7-p7qvAOKoNjGcCpDrfBUPCFRtQzqBzvetRRYUDGFuHtxSudBpsoLgYRM~nhe~BhpE2GHc1aLNdA7JIZijIpYUeYvKfK05bzima7ICXETVaaeH~OnrTwPam75NlwjPNb4vQcx7O-faXtuTvQSBKteVafwHMrV4azQGCXPKwgjBlVxRWYY0ZKE~3Pi53a2VzvQ75xGKWN9lgopBKfK8Uy7A__" alt="" />
       <div className='flex gap-2'>
       <i className="fa-solid fa-location-dot"></i>
@@ -89,7 +92,7 @@ export default function Popular() {
         <button className='bg-[#1E1E1E] text-white w-fit px-4 py-1 rounded-xs mb-8 cursor-pointer '>Book Now</button>
         <p className='text-[#000000]'>1000000$</p>
       </div>
-    </div>
+    </Link>
     
   </div>
    </div>
