@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Popular() {
   return (
    <>
-<div className=' w-[1336px] mx-auto py-18 my-20 relative pt-16 mt-[80px]'>
+<div className=' w-[1336px] mx-auto py-18 my-20 relative pt-16 mt-[800px]'>
    <h2 className='font-semibold mb-4 text-xl relative left-10 top-5 mt-6 text-[#3E3E3E]'> 
     <span className='h-[2px] w-[30px] bg-[#3E3E3E] absolute top-3.5 -left-10'></span> Popular</h2>
   <div className='flex justify-between mb-4'>
