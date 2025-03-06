@@ -5,7 +5,7 @@ import likeIcon from '../../assets/imgs/Like.png'
 export default function Blog() {
   return (
    <>
-   <div className='w-[1336px] mx-auto py-12 my-20  relative'>
+   <div className='w-[1336px] mx-auto py-12 my-20  relative bottom-20'>
    <h2 className='text-[#3E3E3E] mb-6 uppercase absolute left-10 top-0'>Our blog  <span className='h-[2px] w-[40px] bg-[#3E3E3E] absolute top-3 -left-11'></span></h2>
    <div className='flex justify-between mb-4'>
     <p className='text-2xl'>Latest Trends</p>

@@ -34,16 +34,22 @@ export default function Navbar() {
 
         <ul className='flex gap-4 font-semibold'>
        <li className='relative'> 
-       <NavLink className={`before:w-0 text-white ({isActive})=>isActive ? 'font-bold text-blue-200 before:absolute before:w-full hover:w-full before:transition-[width] before:duration-500 before:h-[2px] before:bg-white before:left-0 before:bottom-0  ':' hover:text-gray-200' `} to='/'>Home</NavLink>
+         <NavLink className={`before:w-0 text-white ({isActive})=> isActive ? 'font-bold text-blue-200 before:absolute before:w-full hover:w-full before:transition-[width] before:duration-500 before:h-[2px] before:bg-white before:left-0 before:bottom-0  ':' hover:text-gray-200' `} to='/'>Home</NavLink>
        </li>
        <li className='relative'>
          <NavLink className={`before:w-0 text-white ({isActive})=> isActive ? 'font-bold text-blue-200 before:absolute before:w-0 hover:before:w-full before:transition-[width] before:duration-500  before:h-[2px] before:bg-white before:left-0 before:bottom-0  ':' hover:text-gray-200' `} to='/aboutus'>  About Us</NavLink>
+       </li>
+       <li className='relative'>
+         <NavLink className={`before:w-0 text-white ({isActive})=> isActive ? 'font-bold text-blue-200 before:absolute before:w-0 hover:before:w-full before:transition-[width] before:duration-500  before:h-[2px] before:bg-white before:left-0 before:bottom-0  ':' hover:text-gray-200' `} to='/products'>  Products</NavLink>
        </li>
        <li className='relative'>
          <NavLink className={`before:w-0 text-white ({isActive})=> isActive ? 'font-bold text-blue-200 before:absolute before:w-0 hover:before:w-full before:transition-[width] before:duration-500  before:h-[2px] before:bg-white before:left-0 before:bottom-0  ':' hover:text-gray-200' `} to='/services'>Services</NavLink>
        </li>
        <li className='relative'>
          <NavLink className={`before:w-0 text-white ({isActive})=> isActive ? 'font-bold text-blue-200 before:absolute before:w-0 hover:before:w-full before:transition-[width] before:duration-500  before:h-[2px] before:bg-white before:left-0 before:bottom-0 ':' hover:text-gray-200 ' `} to='/properities'>Properities</NavLink>
+       </li>
+       <li className='relative'>
+         <NavLink className={`before:w-0 text-white ({isActive})=> isActive ? 'font-bold text-blue-200 before:absolute before:w-0 hover:before:w-full before:transition-[width] before:duration-500  before:h-[2px] before:bg-white before:left-0 before:bottom-0 ':' hover:text-gray-200 ' `} to='/favproducts'>Fav Products</NavLink>
        </li>
        <li className='relative'>
        <NavLink className={`before:w-0 text-white ({isActive})=> isActive ? 'font-bold text-blue-200 before:absolute before:w-0 hover:before:w-full before:transition-[width] before:duration-500  before:h-[2px] before:bg-white before:left-0 before:bottom-0  ':'t hover:text-gray-200' `} to='/agents'>Agents</NavLink>

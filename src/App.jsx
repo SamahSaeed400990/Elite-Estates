@@ -8,6 +8,10 @@ import Services from './Components/Services/Services'
 import Home from './Pages/Home/Home'
 import Layout from './Components/Layout'
 import ProductDetails from './Components/ProductDetails/ProductDetails'
+import AboutUs from './Pages/AboutUs/AboutUs'
+import FavProducts from './Pages/FavProducts/FavProducts'
+import Products from './Pages/Products/Products'
+import FavProductsProvider from './context/FavContext/FavContext'
 
 
 
@@ -17,7 +21,10 @@ function App() {
     {
       path:"/" , element: <Layout /> ,children:[
         {index:true,element:<Home />},
-        {path:'productdetails' ,element:<ProductDetails />}
+        {path:'productdetails' ,element:<ProductDetails />},
+        {path:'aboutus' ,element:<AboutUs />},
+        {path:'favproducts' ,element:<FavProducts/>},
+        {path:'products' ,element:<Products />},
     
       ]
     }
@@ -25,7 +32,10 @@ function App() {
   return (
     <>
     {/* <Navbar />  */}
-    <RouterProvider router={routes} ></RouterProvider>
+    <FavProductsProvider>
+      <RouterProvider router={routes} ></RouterProvider> 
+    </FavProductsProvider>
+   
     
 
       {/* <Home  />

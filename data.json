@@ -1,0 +1,404 @@
+{
+  "listings": [
+    {
+      "id": 1,
+      "title": "Luxury Apartment in Downtown",
+      "price": 350000,
+      "currency": "USD",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "zipcode": "10001",
+        "address": "123 Main Street"
+      },
+      "property_details": {
+        "type": "Apartment",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "area_sqft": 1500
+      },
+      "amenities": ["Gym", "Swimming Pool", "Parking"],
+      "image": "https://s3-alpha-sig.figma.com/img/93bb/f647/d3a889a973b1ebd6d9fee1ee280d3d4d?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=AWqrChwFsfTGcVrTOoSqi3jYyC3rUGLu7sqMAkSIudHU1vxJuCOvl29unaD2sF5yncy9wZwB5Yydep3vXjAqWFRnAZAUfdXCHG7wV2YUZ3Mxg8ZnOw6cn8r8IgnYXB9uJiNA7g3UseZPweGETBXbmRc~QCDI2BRiI9ehxjMRLSmLPU9JCkjAK2m~QQsIcHKs~O-S1pRSM-pHnQjTAyWV9GuuNP57tKneGr8tAhOo0s5dWBtmoNJg9TaOiLtjOfSoxjECYNVZT2n3ECHff3SdH8DAV5Q6hZQQ-vJaDXmrpJLBJWNvM9kkUq1-x2jsBfDPpigAHAKL3xHCvay4aLcRcQ__"
+    },
+    {
+      "id": 2,
+      "title": "Cozy Suburban House",
+      "price": 250000,
+      "currency": "USD",
+      "location": {
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipcode": "90001",
+        "address": "456 Oak Street"
+      },
+      "property_details": {
+        "type": "House",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "area_sqft": 2000
+      },
+      "amenities": ["Garden", "Garage", "Fireplace"],
+      "image": "https://s3-alpha-sig.figma.com/img/72e5/344d/63d711b5ddb302d624803dce6a6305dd?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=cp7NSoBy6d38xYGGR7bll5BwL9fu9z5mly-0qLlMSksVBu1Hh1rdMwem3qv6yldplReaHIBT5ablfiEQR8Ic9j8egmapebfRKCIapANK50FgW46k7MFAPSITk3wL0VDoJ1MI2e~JrBRUoAzdRbypqBE6SDZctefDYgkwrhMxTTx37hFGn8nhRphDKKRNVcVeCFtZSpMQCwQrNQJrQIGlA~6Yxb~S0cER4nKzINy2Qx2ttS3qS2KV1y19FE3hr-~Fid0IergP320W7pFZ3opPL5FrRn7ihkbdzMVPzHXmD2vMKqd3d~FJVppu32mBAxwHSv-HX9N7I6tO24ddR7D5~Q__"
+    },
+    {
+      "id": 3,
+      "title": "Modern Condo with City View",
+      "price": 420000,
+      "currency": "USD",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "zipcode": "94103",
+        "address": "789 Market Street"
+      },
+      "property_details": {
+        "type": "Condo",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "area_sqft": 1200
+      },
+      "amenities": ["Balcony", "Gym", "Parking"],
+      "image": "https://s3-alpha-sig.figma.com/img/9c84/5866/1f0a40a268095f2f324f7383cd10d3db?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=KSOhMCDvyz63sGGaGbt-aKsgt~z6yxiIH4LYuoH2BjnUAmLnBKpz~g4QTDgfzWMlkjKGC3YdNSlpyNy50f1q3RAjrCD88BIjSfeYctIqUVI4pliAkcwNfUOxEWZnGeaeE98uxO2lFiSYsSSAOd12gplV1~Y0nL0b0clOLaRvdNg4uRpXbnasfHoPcnPy9dx3Y8iBK7HT~8GtRzxJTfm9jCUeaghX4A2qKaUP~BLFt3IFosRi0fqG2AgLaJvOyc9E3tf-cYmdzGdvA4--2GYQAGK2LPDRWRw0lY4t7stGXDj9RzQltGKpJste3a8wYmh2lCvcpWlKCu0ai0jfFFdEyA__"
+    },
+    {
+      "id": 4,
+      "title": "Spacious Family Home",
+      "price": 320000,
+      "currency": "USD",
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "zipcode": "73301",
+        "address": "987 Maple Drive"
+      },
+      "property_details": {
+        "type": "House",
+        "bedrooms": 5,
+        "bathrooms": 3,
+        "area_sqft": 2500
+      },
+      "amenities": ["Garden", "Garage", "Patio"],
+      "image": "https://s3-alpha-sig.figma.com/img/c0b0/fd67/9da3c745bd3509319637602a665c8c6f?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=pWB~5anSd0507L8sXgOuljQ3gtOlotxUnRmRHOBBRBYIUVhZPGSiQ-eqK6hg9XthriEqgD4uWKZPHxcAFOiO4AQN17okJ6r~Rb9P0ml9j9GcysLKrAsRVd2ftzDkQZ~gjJHHQdJEA5Yu0X7gvn7Hea7pAa0zzulEqsZJlpJIDEb8oTMQKrkkXYbfELj4wueZEHmIb6hLVllJnPBE~ooexybfr83dutai5agiJZjYfDxVswVgaRXqJxP-X0wKzZN6FCcRSNT4Ouu6r3BIkKd9T9SD8vWJQm4R7YbilD1CfdlCVqQYcWcwIJTBKWDslGPLMWPkxDOqq-ZRiwKpWgxUWQ__"
+    },
+    {
+      "id": 5,
+      "title": "Beachfront Villa",
+      "price": 750000,
+      "currency": "USD",
+      "location": {
+        "city": "Miami",
+        "state": "FL",
+        "zipcode": "33101",
+        "address": "456 Ocean Drive"
+      },
+      "property_details": {
+        "type": "Villa",
+        "bedrooms": 6,
+        "bathrooms": 5,
+        "area_sqft": 4000
+      },
+      "amenities": ["Private Beach", "Pool", "Jacuzzi"],
+      "image": "https://s3-alpha-sig.figma.com/img/32a9/d4f4/d1b3259a3b9e50a24ef50b0e59b2a85c?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=l4dXPnk0d3d7kkB32vBmHkcUe4kt7X0YLb~5ZqfYONNYNJYRKMgRQLq4rCcNvRQScIBqE7JEQyVRdHpBZHJj-LwJ718xx5MO3A0t99p1hUo89BTaMscbJhTj-gikMdoRmul32ifP3GT~Y1oCWI0y1RBoWsjsaHD1nbp5XCa0uRIDyyXYbW1xUn1ByPbjAYIQohGsvHiDDNOcjNj1RDJvbYAcMPqMx~-uLjHB1HC3r7ZM~EgADgTQ59msnmd5ZK7KkUKbh9AmeFEjvLAHuDg1d04EVq8L885YI35eyPxUoI~3l~hVE8lwJbEYrr2ZQICHa92fjrwAnLf4we~xjdqr~g__"
+    },
+    {
+      "id": 6,
+      "title": "Penthouse in City Center",
+      "price": 680000,
+      "currency": "USD",
+      "location": {
+        "city": "Chicago",
+        "state": "IL",
+        "zipcode": "60601",
+        "address": "321 Lake Shore Drive"
+      },
+      "property_details": {
+        "type": "Penthouse",
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "area_sqft": 1800
+      },
+      "amenities": ["Rooftop Access", "Gym", "Concierge Service"],
+      "image": "https://s3-alpha-sig.figma.com/img/dd95/5c77/b94d73659292e407b1a5f5cfc50494cb?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=HYbFIzTRHrq9EIo9L37dzz7omLzvOyPPX5kjfy54qqQZMI7bQjF5rHJzfQwKi~xyAUmpFGvcu4DdaqkoK2o1mRYw3b80DZmj7Ja1tLlPLwjDEFfnf4bJxF62k2zwWln4x0H8zJ7AIFms2aeMjVY3euG81s3s5TEJov0rnKKVjP9HYwoBtkbxQE3F~Ipf6XJ4yAYn3dfvwONaPrOtiMSsNMVVC7YCoxjoQKnjdfCYL~vuXX4nslNhUDXrYOt3Tzh-6MnR13080-7ONYIouCOeiCaeCMbuzaGwcZlNOnM~3-6AoAXtbBhlTjfxdbg-3fSjukK4ZAXrWpz0CZJ1q86v7Q__"
+    },
+    {
+      "id": 7,
+      "title": "Suburban Townhouse",
+      "price": 220000,
+      "currency": "USD",
+      "location": {
+        "city": "Dallas",
+        "state": "TX",
+        "zipcode": "75201",
+        "address": "654 Willow Lane"
+      },
+      "property_details": {
+        "type": "Townhouse",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "area_sqft": 1400
+      },
+      "amenities": ["Garage", "Backyard", "Community Pool"],
+      "image": "https://s3-alpha-sig.figma.com/img/3747/d9f2/245c5c933312e358bbdb55b7a54aadc0?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=YDoUYAZpheASHxHJgT~xHjaP01Ys2AwnhzJXThsqzaLp-21XerpYf7nSqhV2YfTXvPRYLTtIvj~Jn5X~OkXByiCPn1E-8nCkKIBEJRzjsXqpW3WBHZpyIBdX-umaJDXWGH9PcJBMcgKC8bh88P0sO13ANsav7VO9KCy-jfPZe1Zh-NZal99o3rqeHq45SAeL1nzc8s2uAGW~D4PU3X3oYsT8CxsgmQAlU8Byze0ulQBQmgJg-Oz2gEnJk83Jkg3D6zhgWxZWGhdLUGQ1FUj4bF1MBxx5oGYPA0mOB4~NRfXkrfuMLXFankOzcBKFCtPItdJm49HgTYMReI8F6oOwGA__"
+    },
+    {
+      "id": 8,
+      "title": "Rustic Mountain Cabin",
+      "price": 195000,
+      "currency": "USD",
+      "location": {
+        "city": "Denver",
+        "state": "CO",
+        "zipcode": "80202",
+        "address": "890 Pine Forest Road"
+      },
+      "property_details": {
+        "type": "Cabin",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "area_sqft": 1000
+      },
+      "amenities": ["Fireplace", "Deck", "Scenic View"],
+      "image": "https://s3-alpha-sig.figma.com/img/7ab7/7a86/6080126ac4be4756e8dabfe184e2c217?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=QtxL1Qb9oY-KJbn2WLpFQDLuIsDACn4BMjZQKsXKVPCQIdy4NFcCEEntL4aMlJM~FCPZs26laJSIHhndhgN-Jx07Iw2rPTDk92RTTckv1dsG~vQZPoWzp4LqfGYXUcxOouP3xZfCmLuBPrw7Lq-auqgaSNJu3XIn0sAmihGS3dvUVXfPOdBSTL2MPjPXxKyIe4kirbpMINLJU8AWT6VRAlkJ6Oo1nt-LdUCD2keBJAkHX~aQd7ytknKxcuog-n1zzFMOwd4qnpEWfBmQN1oT0PC~ebAQ9ajK4aCpuapWzXXjFs~zzOG03Lb8PLNKracoeF0EaFEYBOQQisGCm3hUQg__"
+    },
+    {
+      "id": 9,
+      "title": "Lakefront Cottage",
+      "price": 310000,
+      "currency": "USD",
+      "location": {
+        "city": "Seattle",
+        "state": "WA",
+        "zipcode": "98101",
+        "address": "321 Lake View Road"
+      },
+      "property_details": {
+        "type": "Cottage",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "area_sqft": 1600
+      },
+      "amenities": ["Lake Access", "Boat Dock", "Fire Pit"],
+      "image": "https://s3-alpha-sig.figma.com/img/1aa3/38b7/2532cf9bfeabfb4f6dc22ad86b8f738d?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=g9W-PeZci1pqxNjB9tdVRMIuh-oGs5O0AnHk28ok6nyLYN5XHLFBWYOVDUjMi6yMTNTeljPG7KdgKzGbYsMU76JOT1dFzSvKEauNtyLyn0q0T~fgY6a9qCedHNk3coCKnJP3NUHOyaqZqtfH29Yd8noHZxL771HOXW3Q3YwNRDDaHNyZG-~~gTcOOAqpBc8glQGjndkYpQdwqC37CNk0VtzK5bvtol8MyhFmSlCs8dj3JVHb7w4p~MJmr76~MG5eDv8EWkvQ20rFj8NOdNDfqKehoHj0-aVAcHGuemnB1-qqulFJsYKdwcSoyizgTOXnigs3~j2mvbu3MKzh0i3Fpg__"
+    },
+    {
+      "id": 10,
+      "title": "High-Rise Studio",
+      "price": 180000,
+      "currency": "USD",
+      "location": {
+        "city": "San Diego",
+        "state": "CA",
+        "zipcode": "92101",
+        "address": "567 Tower Plaza"
+      },
+      "property_details": {
+        "type": "Studio",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "area_sqft": 700
+      },
+      "amenities": ["Gym", "City View", "24/7 Security"],
+      "image": "https://images.unsplash.com/photo-1558036117-15d82a90b9b1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHJlYWwlMjBlc3RhdGV8ZW58MHx8MHx8fDA%3D"
+    },
+     {
+      "id": 11,
+      "title": "Elegant Loft",
+      "price": 460000,
+      "currency": "USD",
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "zipcode": "02108",
+        "address": "101 Beacon Street"
+      },
+      "property_details": {
+        "type": "Loft",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "area_sqft": 1300
+      },
+      "amenities": ["Exposed Brick", "Large Windows", "Gym"],
+      "image": "https://images.unsplash.com/photo-1560184897-ae75f418493e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fHJlYWwlMjBlc3RhdGV8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": 12,
+      "title": "Charming Bungalow",
+      "price": 275000,
+      "currency": "USD",
+      "location": {
+        "city": "Portland",
+        "state": "OR",
+        "zipcode": "97201",
+        "address": "222 Green Avenue"
+      },
+      "property_details": {
+        "type": "Bungalow",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "area_sqft": 1450
+      },
+      "amenities": ["Front Porch", "Garden", "Fireplace"],
+      "image": "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHJlYWwlMjBlc3RhdGV8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": 13,
+      "title": "Luxury Mansion",
+      "price": 1200000,
+      "currency": "USD",
+      "location": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "zipcode": "90210",
+        "address": "789 Palm Drive"
+      },
+      "property_details": {
+        "type": "Mansion",
+        "bedrooms": 8,
+        "bathrooms": 7,
+        "area_sqft": 7000
+      },
+      "amenities": ["Home Theater", "Infinity Pool", "Tennis Court"],
+      "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fHJlYWwlMjBlc3RhdGV8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": 14,
+      "title": "Contemporary Duplex",
+      "price": 375000,
+      "currency": "USD",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "zipcode": "30301",
+        "address": "567 Peachtree Street"
+      },
+      "property_details": {
+        "type": "Duplex",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "area_sqft": 2200
+      },
+      "amenities": ["Garage", "Backyard", "Modern Kitchen"],
+      "image": "https://images.unsplash.com/photo-1628624747186-a941c476b7ef?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fHJlYWwlMjBlc3RhdGV8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": 15,
+      "title": "Minimalist Studio",
+      "price": 150000,
+      "currency": "USD",
+      "location": {
+        "city": "Las Vegas",
+        "state": "NV",
+        "zipcode": "89109",
+        "address": "88 Strip Boulevard"
+      },
+      "property_details": {
+        "type": "Studio",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "area_sqft": 600
+      },
+      "amenities": ["City View", "Concierge", "24/7 Security"],
+      "image": "https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fHJlYWwlMjBlc3RhdGV8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": 16,
+      "title": "Countryside Ranch",
+      "price": 500000,
+      "currency": "USD",
+      "location": {
+        "city": "Nashville",
+        "state": "TN",
+        "zipcode": "37201",
+        "address": "999 Farm Road"
+      },
+      "property_details": {
+        "type": "Ranch",
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "area_sqft": 3500
+      },
+      "amenities": ["Horse Stable", "Large Garden", "Barn"],
+      "image": "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fHJlYWwlMjBlc3RhdGV8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": 17,
+      "title": "Ski Resort Cabin",
+      "price": 290000,
+      "currency": "USD",
+      "location": {
+        "city": "Aspen",
+        "state": "CO",
+        "zipcode": "81611",
+        "address": "777 Snowy Hill"
+      },
+      "property_details": {
+        "type": "Cabin",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "area_sqft": 1700
+      },
+      "amenities": ["Ski-In/Ski-Out", "Fireplace", "Hot Tub"],
+      "image": "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fHJlYWwlMjBlc3RhdGV8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": 18,
+      "title": "Downtown Townhouse",
+      "price": 340000,
+      "currency": "USD",
+      "location": {
+        "city": "Philadelphia",
+        "state": "PA",
+        "zipcode": "19102",
+        "address": "444 Liberty Street"
+      },
+      "property_details": {
+        "type": "Townhouse",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "area_sqft": 2100
+      },
+      "amenities": ["Garage", "Roof Deck", "Hardwood Floors"],
+      "image": "https://images.unsplash.com/photo-1605146769289-440113cc3d00?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fHJlYWwlMjBlc3RhdGV8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": 19,
+      "title": "Modern High-Rise Apartment",
+      "price": 500000,
+      "currency": "USD",
+      "location": {
+        "city": "Seattle",
+        "state": "WA",
+        "zipcode": "98109",
+        "address": "123 Skyline Tower"
+      },
+      "property_details": {
+        "type": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "area_sqft": 1400
+      },
+      "amenities": ["Gym", "City View", "Concierge"],
+      "image": "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzZ8fHJlYWwlMjBlc3RhdGV8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": 20,
+      "title": "Eco-Friendly Smart Home",
+      "price": 450000,
+      "currency": "USD",
+      "location": {
+        "city": "San Jose",
+        "state": "CA",
+        "zipcode": "95110",
+        "address": "555 Green Tech Lane"
+      },
+      "property_details": {
+        "type": "Smart Home",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "area_sqft": 2200
+      },
+      "amenities": ["Solar Panels", "Smart Thermostat", "Electric Car Charging"],
+      "image": "https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODJ8fHJlYWwlMjBlc3RhdGV8ZW58MHx8MHx8fDA%3D"
+    }
+  ]
+}
